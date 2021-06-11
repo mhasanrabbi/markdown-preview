@@ -157,6 +157,12 @@ Markdown
   padding: 1rem 2rem;
 }
 
+.result {
+  background-color: #222;
+  color: #fff;
+  border-radius: 5px;
+}
+
 @media screen and (min-width: 992px) {
   .markdown {
     min-height: 100vh;
@@ -174,7 +180,7 @@ blockquote {
   font-size: 2rem;
   font-style: italic;
   border-left: 5px solid var(--clr-grey-5);
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-10);
   padding-left: 2rem;
   line-height: 2;
   margin-bottom: 1.5rem;
